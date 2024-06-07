@@ -10,7 +10,7 @@
  *         NULL if the node has no siblings
  */
 binary_tree_t *binary_tree_sibling(binary_tree_t *node)
-{	
+{
 	/* check if node or node point to parent is absent */
 	if (!node || !node->parent)
 		return (NULL);
